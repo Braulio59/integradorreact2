@@ -4,7 +4,8 @@ import NewsGrid from './Components/NewsGrid';
 import NewsDetail from './Components/NewsDetail';
 import Root from './Components/Root';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import routes from './routes'
+import routes from './routes' 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const router = createBrowserRouter([routes])
 
